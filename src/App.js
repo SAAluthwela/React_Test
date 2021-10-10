@@ -6,7 +6,7 @@ const api = {
 
 function App() {
  <div>
-   Hello
+   Hello world!
  </div>
 }
 
