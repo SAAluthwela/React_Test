@@ -1,4 +1,3 @@
-# React_Test
 
 # INTRO
 
