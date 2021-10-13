@@ -38,6 +38,7 @@ const search = evt =>{
 
   }
   return(
+    //change background
   <div className={
     (typeof weather.main != "undefined") 
     ? ((weather.main.temp > 16)
@@ -56,6 +57,7 @@ const search = evt =>{
             onKeyPress={search}
             />
         </div>
+        {/* neglect undefined*/}
         {(typeof weather.main != "undefined") ? (
           <div>
         <div className="location-box">
